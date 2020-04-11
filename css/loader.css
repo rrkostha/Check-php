@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+#topo { height: 200px; background-color: burlywood;
+}
+
+#preloader {
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:#0066ad;
+	z-index: 999;
+	height: 100%;
+	width: 100%;
+	
+	
+	
+	
+	
+}
+
+
+#status {
+	
+	width: 64px;;
+	height: 64px;
+	
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	
+	
+	background: no-repeat;
+
+	
+		
+}
+
+
+.oferta { background-color: hsla(359,88%,48%,0.88);}
+
+
+
+.intro1 {  background-repeat: no-repeat; background-color: white;}
+
+
+
+#center { margin: 0 auto;
+position:absolute;
+}
+
+
+
+
+
+/* formulario de login */
+
+#acesso { margin: 0 auto;
+	width: 350px; 
+	height: 250px; 
+	margin-top: 100px;
+	background-color: cadetblue;
+	padding: 10px;
+    border-radius: 10px; 
+	color:white;
+}
+
+
+
+/* formulario de cadastro de cliente juridico */
+
+#razao { width: 150px;}
+
+/*fim do cadastro juridico */
+
+.ola { background-color: #776654; }
+
+
+
+
+
+
+
+/* estilo da pagina de gerenciamento */
+
+
+.menu_ger {
+	
+	display: inline-block;
+	
+	
+}
+
+
+.btmenu { 
+text-transform: uppercase;
+	width: 125px;
+
+	
+	
+}
+
+
+
+
+.menub {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 125px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #EBDADA;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 0px;
+	visibility: hidden;
+	outline: none;
+	
+}
+
+
+.menub a { 
+	color: black;
+padding: 16px 12px;
+text-decoration: none;
+	display: block;
+	font-family: arial;
+	text-transform: uppercase;
+}
+
+
+.menub a:hover { 
+	color: white;
+	font-weight:bold;
+padding: 16px 12px;
+text-decoration: none;
+	display: block;
+	font-family: arial;
+	text-transform: uppercase;
+	
+	
+	
+
+}
+
+
+
+.f_colaborador input{
+	display: block;
+     text-transform: uppercase;
+	
+
+}
+
+
+
+
+
+/* fim do estilo da pagina de gerenciamento */
+
+
+
+.aguardando { color: white;
+	background-color:red;
+			  margin: 5px;
+	}
+.acaminho { color: aliceblue;
+	background-color: dodgerblue;
+			 margin: 5px;
+
+}
+
+.enviado {color: white;
+	background-color:green;
+margin: 5px;}
+
+.finalizada { background-color: lightpink;}
+
+.e { background-color: cadetblue;
+
+	 border-radius: 10px;
+	padding: 10px; color: white;
+}
+.f { background-color: yellow;}
+
+.x { background-color: blue;}
+.y { background-color: brown;}
+
+#flogin { margin: 15px;}
+
+
+
+
+
+
+#cadproduto { text-align: center;}
+
+
+
+
+
+
+/* pagina inicial visão dos produtos      */
+
+
+
+
+.box {  text-align: center;
+	    margin:10px;
+    padding: 10px;
+	    border-radius:10px;
+	    border:1px solid;
+	    border-color: orange;
+	    background-color: white;
+
+
+}
+.boxcenter {text-align: center; }
+
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+
+.boximg { border-radius: 10px;
+	width: 100px;
+	      height: 100px;
+	
+	
+}
+
+
+
+
+
+.boximgfol { border-radius: 10px;
+	width: 100px;
+	      height: 100px;
+	
+	
+}
+
+
+.imgdis { border-radius: 10px;
+	width: 250px;
+	      height: 300px;
+	
+	
+}
+
+.titlehome { text-transform: uppercase;font-size:20px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; }
+
+.valor {text-decoration: line-through; color:coral;}
+
+.ofer { color: red; font-weight: bold; font-size:18px;}
+
+
+.ofertante { width: 90%;margin-top: 30px; border-radius: 10px; border: 1px solid orange;padding: 10px;}
+
+.ilogo { width: 100px; height: 120px; border-radius: 10px; border: 1px solid orange; }
+
+@media (max-width: 450px) {
+
+.ilogo { width: 100%; height: 150px; border-radius: 10px; border: 1px solid orange; }
+
+
+}
+
+.titulo { margin-left:10px;  }
+
+.centro { margin:0 auto; text-align: center; }
+.teste { background-color: black; }
+
+.formcli {margin-top: 5px;}
+
+.background {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .0;
+  -moz-opacity:.0;
+  filter: alpha(opacity=0);
+  z-index: 100;
+  display: none;
+}
+
+.boxt {
+
+	position: absolute;
+	top:20%;
+	left: 30%;
+	width: 900px;
+	height: 550px;
+	background-color: #ffffff;
+	z-index: 101;
+	padding: 14px;
+	border-radius: 4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	box-shadow:2px 2px 2px #333333;
+	-moz-box-shadow:2px 2px 2px #333333;
+	-webkit-box-shadow:2px 2px 2px #333333;
+	display: none;
+}
+
+.close {
+	float:right;
+	margin-right: 10px;
+	cursor:pointer;
+}
+
+.maior { width: 600px;
+height: 880px; }
+.pview {
+
+	color: #c762cb;
+	font-style: normal;
+}
